@@ -17,10 +17,7 @@ RUN apt-get update \
         gtk2-engines-murrine ttf-ubuntu-font-family \
         nodejs \
         libreoffice firefox \
-	openjdk-7-jre \
-    && apt-get autoclean \
-    && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/*
+	    openjdk-7-jre 
 
 ADD noVNC /noVNC/
 
